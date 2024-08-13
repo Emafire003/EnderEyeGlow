@@ -1,0 +1,35 @@
+{
+	"schemaVersion": 1,
+	"id": "endereyeglow",
+	"version": "${version}",
+	"name": "EnderEyeGlow",
+	"description": "This is an example description! Tell everyone what your mod is about!",
+	"authors": [
+		"Emafire003"
+	],
+	"contact": {
+		"homepage": "https://modrinth.com/mods/EnderEyeGlow",
+		"sources": "https://github.com/Emafire003/EnderEyeGlow",
+		"issues": "https://github.com/Emafire003/EnderEyeGlow"
+	},
+	"license": "GNU LGLP3",
+	"icon": "assets/endereyeglow/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+          "me.emafire003.dev.endereyeglow.EnderEyeGlow"
+		]
+	},
+	"mixins": [
+		"endereyeglow.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.15.11",
+		"minecraft": ">=1.21",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
