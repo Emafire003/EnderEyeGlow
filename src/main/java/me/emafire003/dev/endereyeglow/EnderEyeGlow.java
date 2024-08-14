@@ -23,7 +23,7 @@ public class EnderEyeGlow implements ModInitializer {
 		// However, some things (like resources) may still be uninitialized.
 		// Proceed with mild caution.
 
-		LOGGER.info("Hello Fabric world!");
+		LOGGER.info("Eyes of ender will now glow when thrown! (EnderEyeGlow mod loaded!)");
 	}
 
 	private static final List<UUID> entitiesGlowingForPlayer = new ArrayList<>();

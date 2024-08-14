@@ -3,6 +3,7 @@
 	"package": "me.emafire003.dev.endereyeglow.mixin",
 	"compatibilityLevel": "JAVA_21",
 	"mixins": [
+		"EyeItemEntityParticlesMixin",
 		"EyeOfEnderStopGlowEntityMixin"
 	],
 	"injectors": {

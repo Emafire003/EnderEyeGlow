@@ -3,7 +3,7 @@
 	"id": "endereyeglow",
 	"version": "${version}",
 	"name": "EnderEyeGlow",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"description": "This mod makes Eyes of Ender glow whenever you throw them! It will also apply a custom color if you install ColoredGlowLib mod as well. \n Originally suggested on the Fabric discord server by @shadow_tech and @hero_____________462",
 	"authors": [
 		"Emafire003"
 	],

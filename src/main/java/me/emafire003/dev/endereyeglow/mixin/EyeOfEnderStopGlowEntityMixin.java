@@ -25,7 +25,6 @@ public abstract class EyeOfEnderStopGlowEntityMixin extends Entity {
 
     @Inject(method = "tick", at = @At("HEAD"))
     public void injectGlowingOnUse(CallbackInfo ci){
-        EnderEyeGlow.LOGGER.warn("Is this run on the client side? EnvType: " + this.getWorld());
         if(!glowingAlready){
             glowingAlready = true;
             EnderEyeGlow.addGlowingEntityForPlayer(this.getUuid());
@@ -39,7 +38,6 @@ public abstract class EyeOfEnderStopGlowEntityMixin extends Entity {
 
     @Inject(method = "tick", at = @At(value = "INVOKE", target = "Lnet/minecraft/entity/EyeOfEnderEntity;discard()V"))
     public void injectStopGlow(CallbackInfo ci){
-        EnderEyeGlow.LOGGER.warn("Is this run on the client side?");
         EnderEyeGlow.removeGlowingEntityForPlayer(this.getUuid());
 
         if(FabricLoader.getInstance().isModLoaded("coloredglowlib")){
