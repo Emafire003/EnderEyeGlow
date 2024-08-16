@@ -2,7 +2,6 @@ package me.emafire003.dev.endereyeglow.compat.cgl;
 
 import me.emafire003.dev.coloredglowlib.ColoredGlowLibAPI;
 import me.emafire003.dev.coloredglowlib.ColoredGlowLibMod;
-import me.emafire003.dev.endereyeglow.EnderEyeGlow;
 import net.fabricmc.api.EnvType;
 import net.fabricmc.api.Environment;
 import net.fabricmc.loader.api.FabricLoader;
@@ -18,7 +17,6 @@ public class CGLCompat {
         return ColoredGlowLibMod.getColoredGlowLib();
     }
 
-    //TODO i think CGL is not working huh
     @Environment(EnvType.CLIENT)
     public static void setEyeColor(Entity eye){
         if(!FabricLoader.getInstance().isModLoaded("coloredglowlib")){
@@ -44,9 +42,5 @@ public class CGLCompat {
             getLib().setExclusiveColorFor(eye, "#09964d", MinecraftClient.getInstance().player);
         }
         Objects.requireNonNull(getLib()).clearExclusiveColorFor(eye, MinecraftClient.getInstance().player, true);
-    }
-
-    public static String getModID(){
-        return "coloredglowlib";
     }
 }
