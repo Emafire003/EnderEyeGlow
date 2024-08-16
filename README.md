@@ -9,7 +9,10 @@ If you install [ColoredGlowLib](https://modrinth.com/mods/coloredglowlib) too, t
 ## Flavours
 You can install the client mod using the Fabric loader, and you will always see the glow in any server/world you join.
 
-You can add the datapack to your sever/world to make the eye of ender glow for all the clients.
+You can add the datapack
+ to your sever/world to make the eye of ender glow for all the clients.
+
+![EnderGlow-gif](https://github.com/user-attachments/assets/5613bf7f-cfe3-45ba-b39c-e1089e71522e)
 
 ### Planned features:
 A config interface for the client mod
