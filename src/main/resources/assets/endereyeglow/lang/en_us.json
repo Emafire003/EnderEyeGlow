@@ -1,0 +1,7 @@
+{
+  "yacl3.config.endereyeglow:config.showDroppedItemParticles": "Show dropped item particles",
+  "yacl3.config.endereyeglow:config.showEnderEyeGlowOutline": "Show EnderEye glow outline",
+  "yacl3.config.endereyeglow:config.enderEyeGlowColor": "Color of the EnderEye glow",
+  "yacl3.config.endereyeglow:config.category.EnderEyeGlow": "EnderEyeGlow",
+  "config.lightwithin.light_ready_icon_x.tooltip": "Change this value to move the LightReady icon horizontally on your screen"
+}
