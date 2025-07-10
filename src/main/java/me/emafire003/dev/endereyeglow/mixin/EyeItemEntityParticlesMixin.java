@@ -40,7 +40,7 @@ public abstract class EyeItemEntityParticlesMixin extends Entity {
         //this.getWorld().addParticle();
         if(this.getStack().isOf(Items.ENDER_EYE)){
             Random r = this.getWorld().getRandom();
-            this.getWorld().addParticle(ParticleTypes.PORTAL, this.getX(), this.getY(), this.getZ(),
+            this.getWorld().addParticleClient(ParticleTypes.PORTAL, this.getX(), this.getY(), this.getZ(),
                     (0.1 + (double) r.nextBetween(1, 3) /10) * r.nextBetween(-1, 1),
                     (0.1 + (double) r.nextBetween(1, 3) /10) * r.nextBetween(-1, 1),
                     (0.1 + (double) r.nextBetween(1, 3) /10) * r.nextBetween(-1, 1));
