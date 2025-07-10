@@ -1,0 +1,35 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="GNU LGLP3"
+
+[properties]
+"connector:placeholder"=true
+
+[[mods]]
+modId="endereyeglow"
+version="1.0.1"
+displayName="EnderEyeGlow"
+authors="Emafire003"
+description='''This mod makes Eyes of Ender glow whenever you throw them! It will also apply a custom color if you install ColoredGlowLib mod as well.
+ Originally suggested on the Fabric discord server by @shadow_tech and @hero_____________462'''
+
+[[dependencies.endereyeglow]]
+modId="forge"
+mandatory=true
+versionRange="[47,)"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.endereyeglow]]
+modId="minecraft"
+mandatory=true
+versionRange="[1.20.1]"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.endereyeglow]]
+modId="connector"
+mandatory=true
+versionRange="*"
+ordering="NONE"
+side="BOTH"
